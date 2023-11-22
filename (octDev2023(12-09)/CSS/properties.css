@@ -1,0 +1,60 @@
+
+
+.parent{
+    height: 700px;
+    width: 1530px;
+    background-color: black;
+   
+  }
+
+  .heading-section{
+    color: aliceblue;
+  }
+
+  .para-section{
+    color: aliceblue;
+    font-family: monospace;
+    color: aliceblue;
+    font-size: x-large;
+  }
+
+/* jevha eka particular tag la element and class donhhi selector lavto tevha same asel 
+tr class selector che contain gheto and jar diff gooshti asel tar both add on krto its not use in real time
+but can be ask in interview */
+
+  h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .h1-container{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+    width: 300px;
+ }   
+
+
+ /* ID selector */
+
+#h2-container{
+  border: 3px dotted red;
+  width: 200px;
+  font-size: 20px;
+  color: rgb(68, 68, 129);
+}
+
+
+/* Universal sector (* symbol denotes the universal selector )*/
+
+
+/* It can be used to select any and all types of element on HTML page  */
+
+/*      *{ 
+              background-color: rgb(139, 62, 106);
+}*/
+
+/*  COMBINATOR-SECTOR TYPE */
+div p{
+  color: rgb(78, 57, 9);
+}

@@ -1,0 +1,77 @@
+
+/* div p{ 
+    color: blue;
+}*/
+
+
+/*  child selector: je direct child ahe tyana ch css lagel  */
+/* div > p{ 
+ color: rgb(79, 182, 153);
+} */
+
+
+/*  adjacent sibling slector ; div chya natr je pahila rahil tyala css lavel */
+
+div + p{
+    color: chocolate;
+}
+
+
+/*  general sibling */
+
+/*  div chya ntr jevde p asel tyala css lagel */
+div ~ p{
+    color: blue;
+}
+
+/* pseudo classes : select element base on certain  state */
+
+/* unvisited link */
+
+a:link {
+    color: rgb(227, 74, 74)26, 101, 101);
+}
+
+/* visited link */
+a:visited{
+    color: rgb(112, 156, 67);
+}
+
+/* mouse over link */
+a:hover{
+    color: hotpink;
+}
+
+/* selected link */
+a:active{
+    color: blue;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+}
+
+
+/*  pseudo element:select and style a part of an element  */
+
+p.para::first-letter{
+    color: rgb(255, 0, 204);
+    font-size: 30px;
+}
+
+.hdm::first-line{
+    color: brown;
+}
+
+.selec::selection{
+    color: rgb(100, 203, 203);
+}
+
+.ilk{
+    color: rgb(90, 32, 14)3, 156);
+}
+
+.lbl::before{
+content: "\2689";
+}

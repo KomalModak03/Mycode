@@ -1,0 +1,37 @@
+
+
+.desc-1{
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    font: 20px;
+     display: none; 
+    padding: 5px 5px;
+}
+
+.img-1{
+    position: absolute;
+    top: 20px;
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+
+ div.img-1:hover .desc-1{ 
+    display: inline;
+    left: 30px;
+}
+
+.flw{
+    position: absolute;
+    top: 0px;
+    width: 7px;
+    height: 5px;
+    word-break: break-all;
+    left: 10px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+   
+}
+

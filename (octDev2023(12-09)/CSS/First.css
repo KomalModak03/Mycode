@@ -1,0 +1,57 @@
+/* External css : 1. element selector 2. class selector  */
+pre{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+
+/* CLASS SELECTOR
+
+classname:.(period operator) followed by  classname) (space, special chara (except _ & -), first letter class name integer not allowed)
+
+e.g. 
+.heading3.container{
+    property:value;
+ }
+*/
+
+
+.h1_container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: blueviolet;
+    border: 2px dotted blueviolet;
+    width: 300px;
+    
+}
+
+/* .para-container{ 
+    border: 4px dotted black;
+    background-color: rgb(6, 6, 6);
+    width: 400px;
+    color: rgba(240, 248, 255, 0.119);
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ } */
+
+ 
+ .para_container{
+
+    background-color: black;
+    width: 300px;
+    border: 2px dotted red;
+    color: azure;
+    text-align: center;
+    margin: auto;
+ }
+
+pre{
+    color: blueviolet;
+    border: 2px dotted black;
+    background-color: bisque;
+    height: 70px;
+    width: 300px;
+}
+

@@ -1,0 +1,129 @@
+
+a{
+    text-decoration: none;
+    
+}
+
+.navbar_container{
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.navbar_container a{
+    float: left;
+    padding: 5px 5px;
+}
+
+.navbar_container a:hover{
+    background-color: rgb(180, 193, 90);
+}
+
+.btn{
+    background-color: rgb(156, 118, 192);
+    border: none;
+    padding: 4px 4px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.Dropdown-container{
+    /* display: block; */
+    position: absolute;
+    background-color: rgb(234, 189, 189);
+    min-width: 114px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+    color: rgb(156, 140, 140);
+}
+
+.Dropdown-container  a{
+    display: none; 
+    float: none;
+    padding: 15px 16px;
+   /* text-decoration: none; */
+   text-align: left;
+   color: rgb(17, 19, 21);
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+
+    
+}
+
+.dropdown:hover .Dropdown-container a{
+    display: block;
+
+}
+
+.Dropdown-container a:hover{
+    background-color: rgb(234, 227, 227);
+}
+
+button.btn:hover{
+    background-color: rgb(242, 192, 226);
+}
+
+
+.Dropdown-containe a.Link1:hover div.sub-div a{
+   display: block;
+}
+
+ 
+/* .sub-div a{
+   display:none
+}  */
+
+
+.footer{
+   border: 2px solid black;
+   width: 1600px;
+   position: fixed;
+   bottom: 0px;
+   height: 30px;
+   background-color: aquamarine;
+}
+
+.form-container{
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    background-color: rgb(229, 217, 241);
+}
+
+.btn-1{
+    background-color: rgb(88, 24, 121);
+    box-shadow: 1px 1px 2px black;
+    position: relative;
+    top: 7px;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 11px;
+    font-size: 15px;
+}
+
+.parent-container{
+     background-image: url("D:/(octDev2023(12-09)/HTML/grow.jpg")
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: aquamarine;
+  
+}
+
+input:focus{
+    background-color: rgb(255, 153, 0);
+}
+
+.input-box{
+    background-color: rgb(206, 172, 58);
+}
+
+.parag{
+    font-size: 40px;
+}

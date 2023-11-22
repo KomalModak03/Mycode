@@ -1,0 +1,17 @@
+
+.word-1{
+
+    width: 50px;
+    border: 1px solid black;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/* word-wrap and word-break breaks word most use word-break:break-all break-word
+word-wrap: break word ...most use break word */
+
+.wordspacing-container::selection{
+    color: rgb(77, 77, 129);
+    word-spacing: 20px;
+    background-color: rgb(234, 110, 116);
+}

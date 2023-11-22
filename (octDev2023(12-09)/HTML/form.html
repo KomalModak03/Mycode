@@ -1,0 +1,43 @@
+<form>
+    <label> User Name</label  > <br>
+    <input type="text" maxlength="15" minlength="2"> <br>
+    <label> Mobile No</label> <br>
+    <input type="number"> <br>
+    <label>Email</label> <br>
+    <input type="email" readonly> <br>
+    <label>Gender</label> <br>
+
+    <!-- Radio button for sigle selection only-->
+    <!-- jar name = gender nabi ghetal tr 3 on select hot kont ek kara sathi 3 ch name he sarkh asayla hawa  its store in backed as key value pair gender should be column and m,f,o will be records-->
+
+    <input type="radio" name="gender" id="male"> Male
+    <input type="radio" name="gender" id ="female"> Female
+    <input type="radio" name="gender" id="other"> Other
+
+    <!-- id should be different field we can fench data using that id   -->
+
+
+
+    <br>
+
+    <!-- for multiselection use checkbox -->
+    <label> Hobbies </label> <br>
+    <input type="checkbox"> Painting
+    <input type="checkbox"> Writing
+    <input type="checkbox"> Dancing
+    <br>
+
+   <label >Number Only</label> <br>
+   <input type="text" pattern="[0-9]{10}$" maxlength="10"  > <br>
+   <label >Name</label> <br>
+   <input type="text" pattern="[a-zA-z]{15}$" maxlength="15" placeholder="Enter your Name Here"> <br>
+
+
+    <br>
+    <button>submit</button>
+    <!-- <input type="button" value="Submit"> -->
+
+
+
+
+</form>

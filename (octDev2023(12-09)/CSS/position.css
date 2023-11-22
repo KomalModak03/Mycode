@@ -1,0 +1,74 @@
+
+
+
+/*static: default value : top/left/right/bottom/z-index/float lagat nahi */
+
+.static-prop{
+    position: static;
+    top: 5px;
+    border: 2px dotted rgb(8, 8, 8);
+}
+
+ /* ABSOLOUTE PROPERTY */ 
+/*  absolute always start from start */
+.abs-value{ 
+    position: absolute;
+    top: 35px;
+    border: 2px solid rgb(9, 9, 9);
+    width: 100px;
+    height: 1000px;
+} 
+
+/* RELATIVE PROPERTY */
+/* when we set it to top 0 px it displayes exactly corelated to previous text .
+it takes psoiton after previos  text not starts from start*/
+
+ .rel-value{ 
+    position: relative;
+    border: 2px dotted rgb(9, 9, 9);
+    width: 300px;
+    height: 300px;
+    left: 169px;
+    top: 54px;
+} 
+
+ h2{
+    color: antiquewhite;
+        /* background-color: black; */
+        /* width: 200; */
+        /* height: 30px; */
+        text-align: center;
+        /* position: absolute; */
+        /* left: 45px; */
+}
+
+
+.fix-value{
+position: fixed;
+height: 40px;
+border: 1px solid black;
+bottom: 0px;
+width: 1500px;
+background-color: bisque;
+}
+
+
+/* sticky la stick hot jya position la apan stick kelay like ithe top pasun 50 var so so tithe ala ki
+stick hoto ani baki content tya mage yetat */
+
+/* z-index in content mage samor anata yete +1 asel tar mage jatat and -1 asel samor(values kami jast karu shakto) */
+.sticky-value{ 
+    border: 1px solid black;
+    position: sticky;
+    top: 50px;
+    background-color: aquamarine;
+    height: 30px;
+    z-index: 1;
+}
+
+
+.back{
+    background-image: url("D:/(octDev2023(12-09)/HTML/grow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,47 @@
+
+
+/*  values: horizontal vertical blur and color */
+.shadow-text{
+    color: rgb(145, 12, 96);
+    text-shadow: 2px 2px 2px rgba(196, 139, 183, 0.874);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.capital-1{
+    text-transform:capitalize ;
+}
+
+.capital-2{
+    text-transform: lowercase;
+
+}
+
+.capital-2{
+  text-transform:uppercase;
+    
+}
+
+/*  overflow: hidden ,visible , auto ,scroll */
+
+.overflow-1{
+    overflow: scroll;
+    border: 1px solid blue;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.overflow-2{
+    overflow: auto;
+    border: 1px solid blue;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.vertical-1{
+    writing-mode: vertical-lr;
+    /* writing-mode: horizontal-tb; */
+}
+
